@@ -1,6 +1,6 @@
 package tema;
 
-public class Client {
+public class Client implements Interfata{
 
 	private int codClient;
 	private String numeClient;
@@ -12,6 +12,11 @@ public class Client {
 		this.numeClient = numeClient;
 	}
 
+	@Override
+	public void inregistrareFeedback(int nr) {
+		// TODO Auto-generated method stub
+		
+	}
 
 	public int getCodClient() {
 		return codClient;
